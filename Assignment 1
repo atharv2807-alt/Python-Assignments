@@ -1,0 +1,26 @@
+#LIST
+l=["Atharv","Shiva","Utkarsh"]
+print("Original List:",l)
+
+l.append("Aayushi")
+print("After Adding:",l)
+
+l[1]="Mahak"
+print("Updated list:",l)
+
+#TUPLE
+t=("Atharv","Shiva","Utkarsh")
+print("Original Tuple:",t)
+
+print("First Student",t[0])
+print("Shiva count:",t.count("Shiva"))
+
+#DICTIONARY
+d={1:"Atharv",2:"Shiva",3:"Utkarsh"}
+print("Origial dictionary:",d)
+
+d[4]="Subhashree"
+print("Added dictionary:",d)
+
+d[2]="Vilas"
+print("Updated dictionary:",d)
